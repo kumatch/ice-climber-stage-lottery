@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ice Climber Stage Lottery</title>
+    <meta content="Ice Climber Stage Lottery" name="description">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <style type="text/css">
+      <!--
+          #lot-no { font-size: 128px; }
+          #lot-btn { width: 200px; }
+          #stage-filter { margin-top: 50px; }
+          #utils { margin: 20px 0; }
+          .sw-block { padding: 10px 0; }
+        -->
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ice Climber Stage Lottery</h1>
+
+      <button type="button" id="lot-btn" class="btn btn-primary center-block">Lot !!</button>
+      <div id="lot-no" class="text-center"></div>
+
+      <div id="stage-filter" class="row">
+        <div id="utils">
+          <button type="button" id="allon" class="btn btn-default">All on</button>
+          <button type="button" id="alloff" class="btn btn-default">All off</button>
+        </div>
+
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-1" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="1" data-off="1">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-2" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="2" data-off="2">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-3" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="3" data-off="3">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-4" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="4" data-off="4">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-5" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="5" data-off="5">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-6" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="6" data-off="6">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-7" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="7" data-off="7">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-8" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="8" data-off="8">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-9" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="9" data-off="9">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-10" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="10" data-off="10">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-11" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="11" data-off="11">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-12" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="12" data-off="12">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-13" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="13" data-off="13">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-14" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="14" data-off="14">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-15" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="15" data-off="15">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-16" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="16" data-off="16">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-17" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="17" data-off="17">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-18" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="18" data-off="18">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-19" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="19" data-off="19">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-20" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="20" data-off="20">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-21" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="21" data-off="21">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-22" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="22" data-off="22">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-23" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="23" data-off="23">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-24" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="24" data-off="24">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-25" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="25" data-off="25">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-26" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="26" data-off="26">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-27" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="27" data-off="27">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-28" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="28" data-off="28">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-29" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="29" data-off="29">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-30" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="30" data-off="30">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-31" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="31" data-off="31">
+        </div>
+        <div class="col-xs-3 col-md-1 sw-block">
+          <input id="sw-stage-32" class="sw-stages" type="checkbox" checked data-toggle="toggle" data-on="32" data-off="32">
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
